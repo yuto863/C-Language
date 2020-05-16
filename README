@@ -1,0 +1,77 @@
+CleartyIntroductionC
+書籍「明快入門C」で書いたコード
+
+LessonC
+YoutubeのC言語入門（https://www.youtube.com/watch?v=l-M2AgxDNow&list=PLXOP1_-wmgsBJYkQcRsPfszLsRdqb9N2e）で書いたコード
+
+NewSolvingC
+書籍「新・解きながら学ぶC言語入門」で書いたコード
+
+
+
+<新・解きながら学ぶC言語入門>
+putcharとは？
+4-9
+
+4-10
+4-11
+if while文の使い分け
+
+%はどこまで表示
+
+4-21
+break文はループ処理を中断
+continue文はスキップ
+
+4-22
+for文を使った多重ループがある
+
+4-25
+no/widthの動きがよく分からない
+
+5-4
+%4dとすることで4マス使って出力している
+
+5-7
+うまく動かないのであとで回す
+
+10-2
+閏年と平年の計算
+
+
+
+<新・明快入門C>
+現在getsは使われていない？
+
+x--
+--x
+とでは評価の方法が違う
+
+ポインタはアドレス
+int *pt;     ポインタを宣言
+pt = &mydt;  mtdtのアドレスを代入
+
+38がよくわからない
+セグフォが起こる
+
+40
+プロトタイプは呼び出しの前に書く
+myfunc.h
+複数もできるのか
+
+67-2
+for(i=0;s[i] != '\0';i++);
+違う？
+
+67-3
+char *bigstr(char *s1,char *s2)
+確認
+
+ポインタ
+*pt = 666;
+と直接に値を代入することもできる
+
+return 0;は慣例
+返さなくても}で判断する
+
+structはclassのようなもの

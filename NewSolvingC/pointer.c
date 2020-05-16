@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void){
+
+int a;
+int *p_a;
+
+a = 200;
+p_a = &a;
+
+printf("%p\n",p_a);
+  printf("%d\n",*p_a);
+  
+  return 0;
+}
